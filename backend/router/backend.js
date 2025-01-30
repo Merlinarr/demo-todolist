@@ -1,6 +1,5 @@
 const express = require("express");
 const router = express.Router();
-const middleware = require("../Middelware/customized");
 const backend_handler = require("../router_handler/backend");
 const expressJoi = require("@escook/express-joi");
 const { 
